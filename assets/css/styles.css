@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.section-content {
+    margin-top: 160px;
+}
+/* Start Header Section Styles  */
+.header {
+    background: #264653;
+}
+.menu-items li a {
+    margin-right: 30px;
+    color: #fff;
+}
+.menu-items li a:hover {
+    color: #fff;
+}
+.navbar-toggler-icon {
+    background-color: gray;
+    color: #fff;
+}
+.login-btn {
+    margin-left: 70px;
+    width: 90px;
+    height: 44px;
+    background: #E76F51;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+.login-btn:hover {
+    color: #fff;
+}
+.banner-btn {
+    background: #E76F51;
+    border-radius: 5px;
+}
+/* End Header Section Styles  */
+/* Start Feature Section Styles  */
+img.bike-grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+p.feature-para {
+    color: #E76F51;
+}
+p.feature-para {
+    position:relative;
+    text-align:center;
+}
+.feature-images {
+    margin-top: 116px;
+}
+p.feature-para::after {
+    content:'';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background: #E76F51;
+    border-radius: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+/* End Feature Section Styles  */
+/* Start Clients Section Styles  */
+.client-says {
+    color: #E76F51;
+}
+.ranks {
+    color: #E76F51;
+}
+.client-name {
+    color: #23A6F0;
+}
+/* End Clients Section Styles */
+/* Start FAQ Section Styles  */
+.q-text {
+    color: #E76F51;
+}
+/* End FAQ Section Styles  */
+/* Start Footer Section Styles  */
+.footer-section {
+    margin-top: 160px;
+}
+.footer-left-content ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+.footer-left-content p {
+    font-size: 14px;
+    margin-left: 12px;
+}
+/* End Footer Section Styles  */
