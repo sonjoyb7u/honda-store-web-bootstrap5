@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honda CBR Bootstrap A3</title>
+    <title>Honda CBR Bootstrap5 Website A3</title>
     <!-- Font awesome link  -->
     <script src="https://kit.fontawesome.com/7f55cd4ecf.js" crossorigin="anonymous"></script>
     <!-- Bootstrap Css link  -->
@@ -49,20 +49,23 @@
             </nav>
         </div>
         <!-- End Navbar section -->
-    
+
         <!-- Start Banner section -->
-        <section class="container d-flex justify-content-center align-items-center py-5">
+        <section class="container d-flex justify-content-between align-items-center py-5 banner-content">
             <div class="banner-left-content">
                 <p class="fw-lighter fs-6">Computer-controlled digital transistorized with electronic advance</p>
                 <h1 class="text-uppercase fw-bold mb-4 w-75">
                     <span class="banner-head-text-one">Honda CBR 300R</span>
                 </h1>
-                <p class="mb-4 fw-lighter fs-6 w-75">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button type="button" class="btn px-5 py-2 text-capitalize banner-btn text-white">
+                <p class="mb-4 fw-lighter fs-6 w-75">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                    amet.</p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="btn px-5 py-2 text-capitalize banner-btn text-white">
                     purchase
                 </button>
             </div>
-            <div class="bannner-right-content">
+            <div class="banner-right-content">
                 <img src="assets/images/header-bike.png" alt="Banner Image">
             </div>
         </section>
@@ -74,14 +77,16 @@
     <main>
         <!-- Start Feature Bike Section  -->
         <section class="container my-5">
-            <div class="text-center mb-5">
+            <div class="text-center mb-5 featured-bike-section">
                 <h1 class="fw-bold fs-1">Featured Bikes 2021</h1>
-                <p class="fw-bold fs-6 feature-para">Best bike collection</p>  
+                <p class="fw-bold fs-6 featured-para">Best bike collection</p>
             </div>
-            <div class="d-flex justify-content-between align-content-center feature-images">
-                <img width="288" height="243" class="bike-grayscale" src="assets/images/feature-bike.jpg" alt="Feature Bike One">
-                <img width="288" height="243" src="assets/images/feature-bike.jpg" alt="Feature Bike Two">
-                <img width="288" height="243" class="bike-grayscale" src="assets/images/feature-bike.jpg" alt="Feature Bike Three">
+            <div class="d-flex justify-content-between align-content-center featured-bike-images">
+                <img width="288" height="243" class="mb-5 bike-grayscale" src="assets/images/feature-bike.jpg"
+                    alt="Feature Bike One">
+                <img width="288" height="243" class="mb-5" src="assets/images/feature-bike.jpg" alt="Feature Bike Two">
+                <img width="288" height="243" class="mb-5 bike-grayscale" src="assets/images/feature-bike.jpg"
+                    alt="Feature Bike Three">
             </div>
         </section>
         <!-- End Feature Bike Section  -->
@@ -96,7 +101,8 @@
                     <div class="border border-1 rounded text-center py-5 px-4">
                         <img width="149" class="" src="assets/images/user-1.png" alt="Client One">
                         <div>
-                            <p class="mt-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                            <p class="mt-4">Slate helps you see how many more days you need to work to reach your
+                                financial goal for the month and year.</p>
                             <div class="ranks mt-3">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -113,7 +119,8 @@
                     <div class="border border-1 rounded text-center py-5 px-4">
                         <img width="149" class="" src="assets/images/user-2.png" alt="Client Two">
                         <div>
-                            <p class="mt-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                            <p class="mt-4">Slate helps you see how many more days you need to work to reach your
+                                financial goal for the month and year.</p>
                             <div class="ranks mt-3">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -128,9 +135,11 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="border border-1 rounded text-center py-5 px-4">
-                        <img width="149" height="149" class="rounded-circle" src="assets/images/user-3.jpg" alt="Client Three">
+                        <img width="149" height="149" class="rounded-circle" src="assets/images/user-3.jpg"
+                            alt="Client Three">
                         <div>
-                            <p class="mt-4">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                            <p class="mt-4">Slate helps you see how many more days you need to work to reach your
+                                financial goal for the month and year.</p>
                             <div class="ranks mt-3">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -153,15 +162,15 @@
                 <h1 class="fw-bold fs-1 text-uppercase">fa<span class="q-text">q</span></h1>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 faq-left-image">
                     <img width="410" height="350" src="assets/images/faq.png" alt="FAQ Image">
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 faq-right-content">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                    aria-expanded="true" aria-controls="collapseOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     What are the most important things I should
                                     know about riding a bike?
                                 </button>
@@ -169,8 +178,10 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
-                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider.
                                 </div>
                             </div>
                         </div>
@@ -185,8 +196,10 @@
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
-                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider.
                                 </div>
                             </div>
                         </div>
@@ -200,8 +213,10 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of
-                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the mindset of
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant bike rider.
                                 </div>
                             </div>
                         </div>
@@ -215,9 +230,11 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                                    Safety First! Always obey the rules of the road. Obey all traffic signals, signs,
+                                    and laws. Get in the
                                     mindset of
-                                    “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant
+                                    “driving” your bike—not just “riding” your bike. This will help you be a more
+                                    focused and legally compliant
                                     bike rider.
                                 </div>
                             </div>
@@ -227,13 +244,50 @@
             </div>
         </section>
         <!-- End FAQ Section  -->
+        <!-- Start Subscriber Section  -->
+        <section id="subscribe" class="container section-content subscribe rounded-3 p-5">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 d-flex justify-content-center flex-column">
+                    <h1>GET IN TOUCH</h1>
+                    <p>Get updates on sales specials and more</p>
+                    <form>
+                        <input class="form-control subscribe-here me-2 ps-3" placeholder="Enter Email"
+                            aria-label="Email">
+                        <button class="btn banner-btn w-25 mt-3 d-inline-block text-white" type="submit"><i
+                                class="far fa-paper-plane"></i> Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- End Subscriber Section  -->
+        <!-- Start Brand Section  -->
+        <section class="section-content">
+            <div class="container rounded-3 brand-images">
+                <h1 class="text-center text-muted pt-4">Our Brands</h1>
+                <div class="row gap-x-3 p-4 justify-content-between align-items-center">
+                    <div class="col-6 col-md-3">
+                        <img class="rounded shadow-md border border-warning p-2" width="150" src="assets/images/brands/brand-1.png" alt="Brand One">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="rounded shadow-md border border-warning p-2" width="150" src="assets/images/brands/brand-2.png" alt="Brand Two">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="rounded shadow-md border border-warning p-2" width="150" src="assets/images/brands/brand-3.png" alt="Brand Three">
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <img class="rounded shadow-md border border-warning p-2" width="150" src="assets/images/brands/brand-4.png" alt="Brand Four">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Brand Section  -->
     </main>
     <!-- End Main Section  -->
 
     <!-- Start Footer Section  -->
     <footer class="section-content bg-black text-white p-5">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="w-75 footer-left-content">
+        <div class="container d-flex justify-content-between align-items-center footer-content">
+            <div class="w-75 footer-left-content order-sm-0">
                 <ul class="nav mb-1 fw-light">
                     <li class="nav-item"><a class="nav-link" href="#">Download Now</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">License</a></li>
@@ -246,25 +300,72 @@
                     <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
                 </ul>
-                <p class="d-inline-block fw-light">&#169; <span id="footer-date"></span> Bike. All rights reserved</p>
+                <p class="d-inline-block fw-light copyright order-sm-2">&#169; <span id="footer-date"></span> Bike. All
+                    rights reserved</p>
             </div>
 
-            <div class="d-flex flex-column">
-                <h5 class="mb-3">Get the App</h5>
-                <a href="#"><img width="135" class="mb-4" src="assets/images/app_store.png" alt="App Store Image"></a>
-                <a href="#"><img width="135" class="mb-4" src="assets/images/playstore.png" alt="Play Store Image"></a>
-                
+            <div class="d-flex flex-column footer-right-content order-sm-1">
+                <h5 class="mb-4">Get the App</h5>
+                <a href="#"><img width="135" class="mb-3" src="assets/images/app_store.png" alt="App Store Image"></a>
+                <a href="#"><img width="135" src="assets/images/playstore.png" alt="Play Store Image"></a>
             </div>
         </div>
     </footer>
     <!-- End Footer Section  -->
 
+    <!-- Start Purchase Modal Section  -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">HONDA CBR 300R</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <img width="350" src="assets/images/bike-4.jpg" alt="Honda CBR Image">
+                            </div>
+                            <div class="col-lg-6">
+                                <h4 class="mb-3">HONDA CBR 300R</h4>
+                                <h6><u>Description: </u></h6>
+                                <p class="mb-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                    sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat
+                                    sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                                    amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <h6><u>Quantity: </u></h6>
+                                <div class="mb-3">
+                                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                                </div>
+                                <h6><u>Color: </u></h6>
+                                <div class="d-inline-flex bike-color">
+                                    <div class="w-25 bg-primary p-3 mx-2"></div>
+                                    <div class="w-25 bg-info p-3 mx-2"></div>
+                                    <div class="w-25 bg-danger p-3 mx-2"></div>
+                                    <div class="w-25 bg-success p-3 mx-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn banner-btn text-white">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Purchase Modal Section  -->
+
     <!-- Bootstrap Js Link  -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script> 
-        const year = new Date(); 
+    <script>
+        const year = new Date();
         document.getElementById("footer-date").innerHTML = year.getFullYear();
     </script>
+    
 </body>
-
 </html>

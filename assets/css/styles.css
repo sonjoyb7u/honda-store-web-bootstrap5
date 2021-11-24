@@ -22,8 +22,7 @@ body {
     color: #fff;
 }
 .navbar-toggler-icon {
-    background-color: gray;
-    color: #fff;
+    border: 2px solid gray;
 }
 .login-btn {
     margin-left: 70px;
@@ -41,23 +40,29 @@ body {
     background: #E76F51;
     border-radius: 5px;
 }
+.bike-color {
+    cursor: pointer;
+}
+.bike-color div {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
 /* End Header Section Styles  */
-/* Start Feature Section Styles  */
+/* Start Featured Section Styles  */
 img.bike-grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-p.feature-para {
+p.featured-para {
     color: #E76F51;
+    position: relative;
+    text-align: center;
 }
-p.feature-para {
-    position:relative;
-    text-align:center;
-}
-.feature-images {
+.featured-bike-images {
     margin-top: 116px;
 }
-p.feature-para::after {
+p.featured-para::after {
     content:'';
     position: absolute;
     width: 70px;
@@ -69,7 +74,7 @@ p.feature-para::after {
     right: 0;
     margin:auto;
 }
-/* End Feature Section Styles  */
+/* End Featured Section Styles  */
 /* Start Clients Section Styles  */
 .client-says {
     color: #E76F51;
@@ -86,10 +91,18 @@ p.feature-para::after {
     color: #E76F51;
 }
 /* End FAQ Section Styles  */
-/* Start Footer Section Styles  */
-.footer-section {
-    margin-top: 160px;
+/* Start Subscriber Section Styles  */
+.subscribe {
+    background-color: rgba(231, 111, 81, .3)
 }
+.subscribe-here:focus {
+    border-color: rgb(146, 145, 145);
+}
+/* End Subscriber Section Styles  */
+.brand-images {
+    background-color: rgba(231, 111, 81, .3);
+}
+/* Start Footer Section Styles  */
 .footer-left-content ul li a{
     color: #fff;
     font-size: 14px;
@@ -99,3 +112,47 @@ p.feature-para::after {
     margin-left: 12px;
 }
 /* End Footer Section Styles  */
+
+
+/* Start Media Query Breakpoints  */
+/* Small devices (landscape phones, 576px and up)  */
+@media only screen and (max-width: 576px) {
+    .login-btn {
+        margin-left: 0;
+    } 
+    .banner-content {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .banner-right-content img {
+        width: 380px;
+        margin-top: 50px;
+    }
+    .featured-bike-section {
+        margin-top: 110px;
+    }
+    .featured-bike-images {
+        margin-top: 100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .faq-left-image img {
+        margin-bottom: 65px;
+        padding: 0 20px;
+    }
+    .footer-content {
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media only screen and  (max-width: 768px) { 
+    .featured-bike-images {
+        margin-top: 100px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+ }
